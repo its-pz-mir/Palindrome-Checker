@@ -1,0 +1,70 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #0a0a23;
+  color: white;
+  ;
+}
+
+h1 {
+  font-style: oblique;
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+
+.box {
+  background-color: white;
+  color: black;
+  padding: 2rem 5rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box p {
+  font-size: 1.2rem;
+}
+
+input {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #5a01a7;
+}
+
+button {
+  background-color: #5a01a7;
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.note {
+  width: 30rem;
+  font-size: 2rem;
+  margin-top: 1rem;
+  background-color: #00471b;
+  padding: 1rem;
+  border-radius: 2rem;
+  text-align: center;
+}
+
+#result {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
